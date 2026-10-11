@@ -1,0 +1,826 @@
+{
+  "format": "litelec",
+  "version": "0.2",
+  "source": {
+    "title": "Probability — A Die Roll Example (MIT)",
+    "url": "https://www.youtube.com/watch?v=YenDB3yOfDc",
+    "creator": "MIT OpenCourseWare",
+    "duration_s": 301.65,
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "modified": true,
+    "modification_note": "Encoded by LiteLecture v0.2: audio transcribed with faster-whisper; math from Pix2Text OCR (experimental).",
+    "original_bytes": 5751920
+  },
+  "audio": {
+    "mode": "tts_only"
+  },
+  "transcript": [
+    {
+      "t": 2.54,
+      "text": "This is a simple example where we want",
+      "speaker": "S1"
+    },
+    {
+      "t": 5.74,
+      "text": "to just apply the formula for conditional probabilities",
+      "speaker": "S1"
+    },
+    {
+      "t": 8.16,
+      "text": "and see what we get.",
+      "speaker": "S1"
+    },
+    {
+      "t": 10.44,
+      "text": "The example involves a four-sided die, if",
+      "speaker": "S1"
+    },
+    {
+      "t": 14.76,
+      "text": "you can imagine such an object, which we",
+      "speaker": "S1"
+    },
+    {
+      "t": 17.32,
+      "text": "roll twice and we record the first roll",
+      "speaker": "S1"
+    },
+    {
+      "t": 19.98,
+      "text": "and the second roll, so there are 16",
+      "speaker": "S1"
+    },
+    {
+      "t": 22.54,
+      "text": "possible outcomes.",
+      "speaker": "S1"
+    },
+    {
+      "t": 23.62,
+      "text": "We assume to keep things simple that each",
+      "speaker": "S1"
+    },
+    {
+      "t": 27.66,
+      "text": "one of those 16 possible outcomes, each one",
+      "speaker": "S1"
+    },
+    {
+      "t": 31.68,
+      "text": "of them has the same probability, so each",
+      "speaker": "S1"
+    },
+    {
+      "t": 33.98,
+      "text": "outcome has probability 1 over 16.",
+      "speaker": "S1"
+    },
+    {
+      "t": 39.32,
+      "text": "Let us consider now a particular event B",
+      "speaker": "S1"
+    },
+    {
+      "t": 42.64,
+      "text": "on which we are going to condition.",
+      "speaker": "S1"
+    },
+    {
+      "t": 44.42,
+      "text": "This is the event under which the smaller",
+      "speaker": "S1"
+    },
+    {
+      "t": 47.96,
+      "text": "of the two die rolls is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 50.66,
+      "text": "2, which means that one of the dies",
+      "speaker": "S1"
+    },
+    {
+      "t": 53.7,
+      "text": "must have resulted in 2, and the other",
+      "speaker": "S1"
+    },
+    {
+      "t": 56.5,
+      "text": "die has resulted in something which is 2",
+      "speaker": "S1"
+    },
+    {
+      "t": 59.72,
+      "text": "or larger.",
+      "speaker": "S1"
+    },
+    {
+      "t": 60.4,
+      "text": "So this can happen in multiple ways, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 64.1,
+      "text": "here are the different ways that it can",
+      "speaker": "S1"
+    },
+    {
+      "t": 66.6,
+      "text": "happen.",
+      "speaker": "S1"
+    },
+    {
+      "t": 67.24,
+      "text": "So a 2, 2, or a 2, 3,",
+      "speaker": "S1"
+    },
+    {
+      "t": 69.38,
+      "text": "a 2, 4, then a 3, 2, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 73.22,
+      "text": "a 4, 2, all these are outcomes in",
+      "speaker": "S1"
+    },
+    {
+      "t": 75.74,
+      "text": "which one of the dies has a value",
+      "speaker": "S1"
+    },
+    {
+      "t": 78.38,
+      "text": "equal to 2, and the other die is",
+      "speaker": "S1"
+    },
+    {
+      "t": 80.34,
+      "text": "at least as large.",
+      "speaker": "S1"
+    },
+    {
+      "t": 82.22,
+      "text": "So we condition on this event.",
+      "speaker": "S1"
+    },
+    {
+      "t": 85.02,
+      "text": "These results in a conditional model where each",
+      "speaker": "S1"
+    },
+    {
+      "t": 88.58,
+      "text": "one of those five outcomes are equally likely",
+      "speaker": "S1"
+    },
+    {
+      "t": 92.06,
+      "text": "since they used to be equally likely in",
+      "speaker": "S1"
+    },
+    {
+      "t": 94.82,
+      "text": "the original model.",
+      "speaker": "S1"
+    },
+    {
+      "t": 96.56,
+      "text": "Now let us look at this quantity, the",
+      "speaker": "S1"
+    },
+    {
+      "t": 98.76,
+      "text": "maximum of the two die rolls, that is",
+      "speaker": "S1"
+    },
+    {
+      "t": 101.62,
+      "text": "the largest of the results, and let us",
+      "speaker": "S1"
+    },
+    {
+      "t": 104.5,
+      "text": "try to calculate the following quantity, the conditional",
+      "speaker": "S1"
+    },
+    {
+      "t": 108.26,
+      "text": "probability that the maximum is equal to 1",
+      "speaker": "S1"
+    },
+    {
+      "t": 111.22,
+      "text": "given that the minimum is equal to 2.",
+      "speaker": "S1"
+    },
+    {
+      "t": 114.52,
+      "text": "So this is the conditional probability of this",
+      "speaker": "S1"
+    },
+    {
+      "t": 118.1,
+      "text": "particular outcome.",
+      "speaker": "S1"
+    },
+    {
+      "t": 119.82,
+      "text": "While this particular outcome cannot happen, if I",
+      "speaker": "S1"
+    },
+    {
+      "t": 122.72,
+      "text": "tell you that the smaller number is 2,",
+      "speaker": "S1"
+    },
+    {
+      "t": 125.38,
+      "text": "then the larger number cannot be equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 128.18,
+      "text": "1.",
+      "speaker": "S1"
+    },
+    {
+      "t": 128.82,
+      "text": "So this outcome is impossible, and therefore this",
+      "speaker": "S1"
+    },
+    {
+      "t": 131.32,
+      "text": "conditional probability is equal to 0.",
+      "speaker": "S1"
+    },
+    {
+      "t": 134.6,
+      "text": "Let's do something a little more interesting.",
+      "speaker": "S1"
+    },
+    {
+      "t": 136.72,
+      "text": "Let us now look at the conditional probability",
+      "speaker": "S1"
+    },
+    {
+      "t": 139.52,
+      "text": "that the maximum is equal to 3 given",
+      "speaker": "S1"
+    },
+    {
+      "t": 144.66,
+      "text": "the information that event B has occurred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 149.14,
+      "text": "It's best to draw a picture and see",
+      "speaker": "S1"
+    },
+    {
+      "t": 150.9,
+      "text": "what that event corresponds to.",
+      "speaker": "S1"
+    },
+    {
+      "t": 153.86,
+      "text": "M is equal to 3, the maximum is",
+      "speaker": "S1"
+    },
+    {
+      "t": 156.56,
+      "text": "equal to 3, if 1 of the dies",
+      "speaker": "S1"
+    },
+    {
+      "t": 161.06,
+      "text": "resulted in a 3, and the other die",
+      "speaker": "S1"
+    },
+    {
+      "t": 164.28,
+      "text": "resulting in something that's 3 or less.",
+      "speaker": "S1"
+    },
+    {
+      "t": 168.32,
+      "text": "So this event here corresponds to the blue",
+      "speaker": "S1"
+    },
+    {
+      "t": 173.56,
+      "text": "region in this diagram.",
+      "speaker": "S1"
+    },
+    {
+      "t": 176.26,
+      "text": "Now let us try to calculate the conditional",
+      "speaker": "S1"
+    },
+    {
+      "t": 179.4,
+      "text": "probability by just following the definition.",
+      "speaker": "S1"
+    },
+    {
+      "t": 182.76,
+      "text": "The conditional probability of one event given another",
+      "speaker": "S1"
+    },
+    {
+      "t": 186.88,
+      "text": "is the probability that both of them, both",
+      "speaker": "S1"
+    },
+    {
+      "t": 191.06,
+      "text": "of the two events occur divided by the",
+      "speaker": "S1"
+    },
+    {
+      "t": 197.5,
+      "text": "probability of the conditioning event.",
+      "speaker": "S1"
+    },
+    {
+      "t": 199.88,
+      "text": "That is, out of the total probability in",
+      "speaker": "S1"
+    },
+    {
+      "t": 203.74,
+      "text": "the conditioning event, we ask what fraction of",
+      "speaker": "S1"
+    },
+    {
+      "t": 206.76,
+      "text": "that probability is assigned to outcomes in which",
+      "speaker": "S1"
+    },
+    {
+      "t": 210.02,
+      "text": "the event of interest is also happening.",
+      "speaker": "S1"
+    },
+    {
+      "t": 213.96,
+      "text": "So what is this event?",
+      "speaker": "S1"
+    },
+    {
+      "t": 216.18,
+      "text": "The maximum is equal to 3, which is",
+      "speaker": "S1"
+    },
+    {
+      "t": 218.4,
+      "text": "the blue event, and simultaneously the red event",
+      "speaker": "S1"
+    },
+    {
+      "t": 222.96,
+      "text": "is happening.",
+      "speaker": "S1"
+    },
+    {
+      "t": 223.74,
+      "text": "These two events intersect only in two places.",
+      "speaker": "S1"
+    },
+    {
+      "t": 228.68,
+      "text": "This is the intersection of the two events,",
+      "speaker": "S1"
+    },
+    {
+      "t": 231.3,
+      "text": "and the probability of that intersection is 2",
+      "speaker": "S1"
+    },
+    {
+      "t": 236.12,
+      "text": "out of 16.",
+      "speaker": "S1"
+    },
+    {
+      "t": 238.18,
+      "text": "Since there's 16 outcomes, and that event happens",
+      "speaker": "S1"
+    },
+    {
+      "t": 241.18,
+      "text": "only with two particular outcomes.",
+      "speaker": "S1"
+    },
+    {
+      "t": 244.82,
+      "text": "So this gives us 2 over 16 in",
+      "speaker": "S1"
+    },
+    {
+      "t": 247.4,
+      "text": "the numerator.",
+      "speaker": "S1"
+    },
+    {
+      "t": 249.22,
+      "text": "How about the denominator?",
+      "speaker": "S1"
+    },
+    {
+      "t": 251.28,
+      "text": "Event B consists of a total of 5",
+      "speaker": "S1"
+    },
+    {
+      "t": 253.78,
+      "text": "possible outcomes, which one has probability 1 16,",
+      "speaker": "S1"
+    },
+    {
+      "t": 257.26,
+      "text": "so this is 5 over 16, so the",
+      "speaker": "S1"
+    },
+    {
+      "t": 259.94,
+      "text": "final answer is 2 over 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 263.42,
+      "text": "We could have gotten that same answer in",
+      "speaker": "S1"
+    },
+    {
+      "t": 266.04,
+      "text": "a simple and perhaps more intuitive way.",
+      "speaker": "S1"
+    },
+    {
+      "t": 269.8,
+      "text": "In the original model, all outcomes were equally",
+      "speaker": "S1"
+    },
+    {
+      "t": 272.34,
+      "text": "likely.",
+      "speaker": "S1"
+    },
+    {
+      "t": 273.58,
+      "text": "Therefore, in the conditional model, the five outcomes",
+      "speaker": "S1"
+    },
+    {
+      "t": 277.1,
+      "text": "that belong to B should also be equally",
+      "speaker": "S1"
+    },
+    {
+      "t": 280.06,
+      "text": "likely.",
+      "speaker": "S1"
+    },
+    {
+      "t": 281.14,
+      "text": "Out of those five, there's two of them",
+      "speaker": "S1"
+    },
+    {
+      "t": 283.58,
+      "text": "that make the event of interest to occur,",
+      "speaker": "S1"
+    },
+    {
+      "t": 288.14,
+      "text": "so given that we live in B, there's",
+      "speaker": "S1"
+    },
+    {
+      "t": 290.92,
+      "text": "two ways out of five that the event",
+      "speaker": "S1"
+    },
+    {
+      "t": 293.02,
+      "text": "of interest will materialize, so the event of",
+      "speaker": "S1"
+    },
+    {
+      "t": 295.8,
+      "text": "interest has conditional probability equals to two-fifths.",
+      "speaker": "S1"
+    }
+  ],
+  "symbols": [
+    {
+      "t": 0,
+      "kind": "latex",
+      "data": "X = \\text{First \\text{roll}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 0,
+      "kind": "latex",
+      "data": "Y = \\text{Second \\text{roll}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 10,
+      "kind": "latex",
+      "data": "Y = \\text{Second roll}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 10,
+      "kind": "latex",
+      "data": "X = \\text{First roll}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 25
+    },
+    {
+      "t": 35,
+      "kind": "latex",
+      "data": "\\frac{1}{16}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 30
+    },
+    {
+      "t": 65,
+      "kind": "latex",
+      "data": "\\min(X,Y) = 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 15
+    },
+    {
+      "t": 80,
+      "kind": "latex",
+      "data": "B \\text{ \\text{be the event}: } \\min(X, Y) = 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 15
+    },
+    {
+      "t": 95,
+      "kind": "latex",
+      "data": "\\text{Let} M = \\max(X, Y)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 95,
+      "kind": "latex",
+      "data": "\\mathbb{P}(M = 1 | B) =",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 100,
+      "kind": "latex",
+      "data": "M=\\max(X,Y)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 100,
+      "kind": "latex",
+      "data": "\\mathrm{P}(M=1|B)=",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 105,
+      "kind": "latex",
+      "data": "P (M=1|B)=",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 25
+    },
+    {
+      "t": 130,
+      "kind": "latex",
+      "data": "P (M=1|B)=\\frac{6}{30}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "\\mathrm{P}(M=1|B)=0",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "\\mathrm{P}(M=3|B)=",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 140,
+      "kind": "latex",
+      "data": "P (M=1|B)=0",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 140,
+      "kind": "latex",
+      "data": "P (M=3|B)=",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 45
+    },
+    {
+      "t": 185,
+      "kind": "latex",
+      "data": "\\mathrm{P}(\\underline{M}=3|B)=\\underline{p} .",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 190,
+      "kind": "latex",
+      "data": "P (\\underline{M=3}|B)=\\underline{P(M=3)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 195,
+      "kind": "latex",
+      "data": "P(M=3|B)=\\underbrace{P(M=3 \\text{ \\text{and} } B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 200,
+      "kind": "latex",
+      "data": "P(M=3|B)=\\frac{P(M=3 \\text{ \\text{and} } B)}{P(B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 205,
+      "kind": "latex",
+      "data": "P (\\underline{M=3}|B)=\\frac{\\text{P}(M=3 \\text{ \\text{and} } B)}{\\text{P}(B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 15
+    },
+    {
+      "t": 220,
+      "kind": "latex",
+      "data": "\\mathbf{P}(M=1|B)=0",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 220,
+      "kind": "latex",
+      "data": "\\mathbf{P}(M=3|B)=\\frac{\\mathbf{P}(M=3 \\text{ \\text{and} } B)}{\\mathbf{P}(B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 40
+    },
+    {
+      "t": 260,
+      "kind": "latex",
+      "data": "P (\\underline{M=3}|B)=\\frac{\\underline{P(M=3 \\text{and} B)}}{P(B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 265,
+      "kind": "latex",
+      "data": "P (M=3|B)=\\frac{P(M=3 \\text{and} B)}{P(B)}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 20
+    },
+    {
+      "t": 285,
+      "kind": "latex",
+      "data": "\\text{Let} M = \\text{max}( X,Y )",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 16.65
+    }
+  ],
+  "scenes": [
+    {
+      "t": 0,
+      "layout": "whiteboard",
+      "background": "white"
+    }
+  ]
+}

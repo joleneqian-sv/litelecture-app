@@ -1,0 +1,2289 @@
+{
+  "format": "litelec",
+  "version": "0.2",
+  "source": {
+    "title": "Intro to arithmetic sequences（Khan)",
+    "url": "https://www.youtube.com/watch?v=_cooC3yG_p0",
+    "creator": "Khan Academy",
+    "duration_s": 425.99,
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "modified": true,
+    "modification_note": "Encoded by LiteLecture v0.2: audio transcribed with faster-whisper; math from Pix2Text OCR (experimental).",
+    "original_bytes": 10008844
+  },
+  "audio": {
+    "mode": "tts_only"
+  },
+  "transcript": [
+    {
+      "t": 0.0,
+      "text": "What I want to do in this video",
+      "speaker": "S1"
+    },
+    {
+      "t": 1.56,
+      "text": "is familiarize ourselves with a very common class",
+      "speaker": "S1"
+    },
+    {
+      "t": 5.64,
+      "text": "of sequences.",
+      "speaker": "S1"
+    },
+    {
+      "t": 6.86,
+      "text": "This is arithmetic sequences, and they're usually pretty",
+      "speaker": "S1"
+    },
+    {
+      "t": 12.7,
+      "text": "easy to spot.",
+      "speaker": "S1"
+    },
+    {
+      "t": 13.92,
+      "text": "They're sequences where each term is a fixed",
+      "speaker": "S1"
+    },
+    {
+      "t": 16.3,
+      "text": "number larger than the term before it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 19.0,
+      "text": "My goal here is to figure out which",
+      "speaker": "S1"
+    },
+    {
+      "t": 20.82,
+      "text": "of these sequences are arithmetic sequences, and then",
+      "speaker": "S1"
+    },
+    {
+      "t": 23.58,
+      "text": "just so that we have some practice with",
+      "speaker": "S1"
+    },
+    {
+      "t": 25.08,
+      "text": "some of the sequence notation, I want to",
+      "speaker": "S1"
+    },
+    {
+      "t": 26.92,
+      "text": "define them in either as explicit functions of",
+      "speaker": "S1"
+    },
+    {
+      "t": 30.26,
+      "text": "the term you're looking for, the index you're",
+      "speaker": "S1"
+    },
+    {
+      "t": 32.1,
+      "text": "looking at, or as recursive definitions.",
+      "speaker": "S1"
+    },
+    {
+      "t": 35.14,
+      "text": "So first, given that an arithmetic sequence is",
+      "speaker": "S1"
+    },
+    {
+      "t": 37.5,
+      "text": "one where each successive term is a fixed",
+      "speaker": "S1"
+    },
+    {
+      "t": 39.72,
+      "text": "amount larger than the previous one, which of",
+      "speaker": "S1"
+    },
+    {
+      "t": 42.2,
+      "text": "these are arithmetic sequences?",
+      "speaker": "S1"
+    },
+    {
+      "t": 45.84,
+      "text": "Let's look at this first one right over",
+      "speaker": "S1"
+    },
+    {
+      "t": 47.56,
+      "text": "here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 47.86,
+      "text": "To go from negative five to negative three,",
+      "speaker": "S1"
+    },
+    {
+      "t": 50.36,
+      "text": "we had to add two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 52.2,
+      "text": "Then to go from negative three to negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 54.02,
+      "text": "one, you have to add two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 56.2,
+      "text": "Then to go from negative one to one,",
+      "speaker": "S1"
+    },
+    {
+      "t": 58.32,
+      "text": "you had to add two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 60.38,
+      "text": "So this is clearly an arithmetic sequence.",
+      "speaker": "S1"
+    },
+    {
+      "t": 62.7,
+      "text": "We're adding the same amount every time, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 64.92,
+      "text": "there's several ways that we can define the",
+      "speaker": "S1"
+    },
+    {
+      "t": 66.68,
+      "text": "sequence.",
+      "speaker": "S1"
+    },
+    {
+      "t": 67.12,
+      "text": "We could say it's a sub n, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 70.36,
+      "text": "you don't always have to use k.",
+      "speaker": "S1"
+    },
+    {
+      "t": 71.44,
+      "text": "This time I'll use n to denote our",
+      "speaker": "S1"
+    },
+    {
+      "t": 73.18,
+      "text": "index from n equals one to infinity with,",
+      "speaker": "S1"
+    },
+    {
+      "t": 78.48,
+      "text": "and there's two ways we can define it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 80.02,
+      "text": "We can either define it explicitly or we",
+      "speaker": "S1"
+    },
+    {
+      "t": 81.64,
+      "text": "can define it recursively.",
+      "speaker": "S1"
+    },
+    {
+      "t": 82.76,
+      "text": "So if we wanted to define it explicitly,",
+      "speaker": "S1"
+    },
+    {
+      "t": 84.86,
+      "text": "we could write a sub n is equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 87.34,
+      "text": "to whatever the first term is.",
+      "speaker": "S1"
+    },
+    {
+      "t": 88.92,
+      "text": "In this case, our first term is negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 91.78,
+      "text": "five.",
+      "speaker": "S1"
+    },
+    {
+      "t": 92.92,
+      "text": "It's equal to negative five, plus we're going",
+      "speaker": "S1"
+    },
+    {
+      "t": 96.36,
+      "text": "to add two, one less times than the",
+      "speaker": "S1"
+    },
+    {
+      "t": 99.72,
+      "text": "term we're at.",
+      "speaker": "S1"
+    },
+    {
+      "t": 100.48,
+      "text": "So for the second term, we add two",
+      "speaker": "S1"
+    },
+    {
+      "t": 101.78,
+      "text": "once.",
+      "speaker": "S1"
+    },
+    {
+      "t": 102.28,
+      "text": "For the third term, we add two twice.",
+      "speaker": "S1"
+    },
+    {
+      "t": 104.5,
+      "text": "For the fourth term, we added from our",
+      "speaker": "S1"
+    },
+    {
+      "t": 106.88,
+      "text": "base term, we added two three times.",
+      "speaker": "S1"
+    },
+    {
+      "t": 108.6,
+      "text": "So we're going to add two, we're going",
+      "speaker": "S1"
+    },
+    {
+      "t": 111.28,
+      "text": "to add positive two, one less than the",
+      "speaker": "S1"
+    },
+    {
+      "t": 114.38,
+      "text": "index that we're looking at, n minus one",
+      "speaker": "S1"
+    },
+    {
+      "t": 117.52,
+      "text": "times.",
+      "speaker": "S1"
+    },
+    {
+      "t": 118.12,
+      "text": "So this is an explicit definition of this",
+      "speaker": "S1"
+    },
+    {
+      "t": 121.56,
+      "text": "arithmetic sequence.",
+      "speaker": "S1"
+    },
+    {
+      "t": 123.0,
+      "text": "If I wanted to write it recursively, I",
+      "speaker": "S1"
+    },
+    {
+      "t": 125.04,
+      "text": "could say a sub one is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 128.48,
+      "text": "negative five, and then each successive term for",
+      "speaker": "S1"
+    },
+    {
+      "t": 132.66,
+      "text": "a sub two and greater, so I could",
+      "speaker": "S1"
+    },
+    {
+      "t": 134.74,
+      "text": "say a sub n is equal to a",
+      "speaker": "S1"
+    },
+    {
+      "t": 137.3,
+      "text": "sub n minus one plus three.",
+      "speaker": "S1"
+    },
+    {
+      "t": 140.58,
+      "text": "Each term is equal to the previous term",
+      "speaker": "S1"
+    },
+    {
+      "t": 142.54,
+      "text": "plus, not three, plus two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 145.64,
+      "text": "So this is for n greater than or",
+      "speaker": "S1"
+    },
+    {
+      "t": 149.96,
+      "text": "equal to two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 151.06,
+      "text": "So either of these are completely legitimate ways",
+      "speaker": "S1"
+    },
+    {
+      "t": 155.34,
+      "text": "of defining the arithmetic sequence that we have",
+      "speaker": "S1"
+    },
+    {
+      "t": 159.8,
+      "text": "here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 160.2,
+      "text": "We can either define it explicitly or we",
+      "speaker": "S1"
+    },
+    {
+      "t": 162.64,
+      "text": "could define it recursively.",
+      "speaker": "S1"
+    },
+    {
+      "t": 164.74,
+      "text": "Let's look at this sequence.",
+      "speaker": "S1"
+    },
+    {
+      "t": 165.8,
+      "text": "Is this one arithmetic?",
+      "speaker": "S1"
+    },
+    {
+      "t": 168.48,
+      "text": "Well, we're going from 100, we add seven,",
+      "speaker": "S1"
+    },
+    {
+      "t": 172.22,
+      "text": "107 to 114, we're adding seven, 114 to",
+      "speaker": "S1"
+    },
+    {
+      "t": 175.8,
+      "text": "121, we are adding seven.",
+      "speaker": "S1"
+    },
+    {
+      "t": 178.42,
+      "text": "So this is indeed an arithmetic sequence, so",
+      "speaker": "S1"
+    },
+    {
+      "t": 180.7,
+      "text": "just to be clear, this is one, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 183.3,
+      "text": "this is one right over here, and we",
+      "speaker": "S1"
+    },
+    {
+      "t": 185.8,
+      "text": "could write that this is the sequence a",
+      "speaker": "S1"
+    },
+    {
+      "t": 188.38,
+      "text": "sub n and going from one to infinity",
+      "speaker": "S1"
+    },
+    {
+      "t": 192.36,
+      "text": "of, and we could just say a sub",
+      "speaker": "S1"
+    },
+    {
+      "t": 195.52,
+      "text": "n if we wanted to find it explicitly",
+      "speaker": "S1"
+    },
+    {
+      "t": 197.22,
+      "text": "is equal to 100 plus, we're adding seven",
+      "speaker": "S1"
+    },
+    {
+      "t": 201.72,
+      "text": "every time.",
+      "speaker": "S1"
+    },
+    {
+      "t": 203.24,
+      "text": "And then each term, the second term we",
+      "speaker": "S1"
+    },
+    {
+      "t": 205.26,
+      "text": "added seven once, third term we add seven",
+      "speaker": "S1"
+    },
+    {
+      "t": 207.26,
+      "text": "twice.",
+      "speaker": "S1"
+    },
+    {
+      "t": 208.14,
+      "text": "So for the nth term, we're going to",
+      "speaker": "S1"
+    },
+    {
+      "t": 209.62,
+      "text": "add seven n minus one time.",
+      "speaker": "S1"
+    },
+    {
+      "t": 212.34,
+      "text": "So this is an explicit definition of it,",
+      "speaker": "S1"
+    },
+    {
+      "t": 214.4,
+      "text": "but we could also do it recursively.",
+      "speaker": "S1"
+    },
+    {
+      "t": 215.86,
+      "text": "We could also say, we could also, so",
+      "speaker": "S1"
+    },
+    {
+      "t": 218.76,
+      "text": "just to be clear, this is one definition",
+      "speaker": "S1"
+    },
+    {
+      "t": 221.32,
+      "text": "where we write it like this, we write",
+      "speaker": "S1"
+    },
+    {
+      "t": 223.74,
+      "text": "it like this, or we could write a",
+      "speaker": "S1"
+    },
+    {
+      "t": 226.24,
+      "text": "sub n from n equals one to infinity,",
+      "speaker": "S1"
+    },
+    {
+      "t": 230.46,
+      "text": "in either case I should write with, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 232.94,
+      "text": "if I wanted to find it recursively, I",
+      "speaker": "S1"
+    },
+    {
+      "t": 235.46,
+      "text": "could say a sub one is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 237.1,
+      "text": "100, and then for a sub n, for",
+      "speaker": "S1"
+    },
+    {
+      "t": 241.7,
+      "text": "anything larger than one, for any index above",
+      "speaker": "S1"
+    },
+    {
+      "t": 243.64,
+      "text": "one, a sub n is equal to the",
+      "speaker": "S1"
+    },
+    {
+      "t": 245.22,
+      "text": "previous term, plus, plus seven.",
+      "speaker": "S1"
+    },
+    {
+      "t": 249.32,
+      "text": "And once, so we're done, this is another",
+      "speaker": "S1"
+    },
+    {
+      "t": 251.46,
+      "text": "way of defining it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 252.22,
+      "text": "So in general, if you wanted a generalizable",
+      "speaker": "S1"
+    },
+    {
+      "t": 254.18,
+      "text": "way to a spot or defined in arithmetic",
+      "speaker": "S1"
+    },
+    {
+      "t": 256.8,
+      "text": "sequence, you could say an arithmetic sequence is",
+      "speaker": "S1"
+    },
+    {
+      "t": 260.68,
+      "text": "going to be of the form a sub",
+      "speaker": "S1"
+    },
+    {
+      "t": 263.0,
+      "text": "n, if we're talking about an infinite one",
+      "speaker": "S1"
+    },
+    {
+      "t": 264.6,
+      "text": "from n equals one to infinity, if you",
+      "speaker": "S1"
+    },
+    {
+      "t": 267.08,
+      "text": "wanted to find it explicitly, you could say",
+      "speaker": "S1"
+    },
+    {
+      "t": 268.9,
+      "text": "a sub n is equal to, is equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 271.96,
+      "text": "to some constant, which would essentially be the",
+      "speaker": "S1"
+    },
+    {
+      "t": 274.26,
+      "text": "first term, it would be some constant, plus,",
+      "speaker": "S1"
+    },
+    {
+      "t": 278.28,
+      "text": "plus some number that you're incrementing, or I",
+      "speaker": "S1"
+    },
+    {
+      "t": 282.86,
+      "text": "guess this could be a negative number, or",
+      "speaker": "S1"
+    },
+    {
+      "t": 284.2,
+      "text": "decrementing by, times n minus one, so this",
+      "speaker": "S1"
+    },
+    {
+      "t": 287.92,
+      "text": "is one way to define an arithmetic sequence.",
+      "speaker": "S1"
+    },
+    {
+      "t": 291.26,
+      "text": "In this case, d was two, in this",
+      "speaker": "S1"
+    },
+    {
+      "t": 294.14,
+      "text": "case d is seven, that's how much you're",
+      "speaker": "S1"
+    },
+    {
+      "t": 295.64,
+      "text": "adding by each time, and in this case,",
+      "speaker": "S1"
+    },
+    {
+      "t": 298.06,
+      "text": "k is negative five, and in this case,",
+      "speaker": "S1"
+    },
+    {
+      "t": 299.8,
+      "text": "k is 100.",
+      "speaker": "S1"
+    },
+    {
+      "t": 302.1,
+      "text": "The other way that you could, if you",
+      "speaker": "S1"
+    },
+    {
+      "t": 303.72,
+      "text": "wanted to write the recursive way of defining",
+      "speaker": "S1"
+    },
+    {
+      "t": 306.0,
+      "text": "an arithmetic sequence generally, you could say a",
+      "speaker": "S1"
+    },
+    {
+      "t": 309.46,
+      "text": "sub one is equal to k, and then",
+      "speaker": "S1"
+    },
+    {
+      "t": 312.5,
+      "text": "a sub n is equal to a sub",
+      "speaker": "S1"
+    },
+    {
+      "t": 314.74,
+      "text": "n minus one, a given term is equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 317.06,
+      "text": "to the previous term, plus d for n",
+      "speaker": "S1"
+    },
+    {
+      "t": 320.34,
+      "text": "greater than or equal to two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 322.28,
+      "text": "So once again, this is explicit, this is",
+      "speaker": "S1"
+    },
+    {
+      "t": 324.3,
+      "text": "a recursive way of defining it, and we",
+      "speaker": "S1"
+    },
+    {
+      "t": 326.28,
+      "text": "would just write with there.",
+      "speaker": "S1"
+    },
+    {
+      "t": 328.06,
+      "text": "Now the last question I have is, is",
+      "speaker": "S1"
+    },
+    {
+      "t": 329.6,
+      "text": "this one right over here an arithmetic sequence?",
+      "speaker": "S1"
+    },
+    {
+      "t": 332.38,
+      "text": "Well, let's check it out.",
+      "speaker": "S1"
+    },
+    {
+      "t": 334.2,
+      "text": "To start, we start one, then we add",
+      "speaker": "S1"
+    },
+    {
+      "t": 336.54,
+      "text": "two, then we add three, so this is",
+      "speaker": "S1"
+    },
+    {
+      "t": 339.72,
+      "text": "a immediate giveaway, this is not an arithmetic",
+      "speaker": "S1"
+    },
+    {
+      "t": 341.22,
+      "text": "sequence, now we are adding four, we're adding",
+      "speaker": "S1"
+    },
+    {
+      "t": 343.56,
+      "text": "a different amount every time.",
+      "speaker": "S1"
+    },
+    {
+      "t": 346.18,
+      "text": "So how could we, so this first of",
+      "speaker": "S1"
+    },
+    {
+      "t": 347.36,
+      "text": "all, not, this is not arithmetic, this is",
+      "speaker": "S1"
+    },
+    {
+      "t": 351.34,
+      "text": "not an arithmetic sequence, but how could we",
+      "speaker": "S1"
+    },
+    {
+      "t": 354.36,
+      "text": "define this, since we're trying to define our",
+      "speaker": "S1"
+    },
+    {
+      "t": 356.96,
+      "text": "sequences?",
+      "speaker": "S1"
+    },
+    {
+      "t": 358.38,
+      "text": "So if we wanted to define it, if",
+      "speaker": "S1"
+    },
+    {
+      "t": 360.44,
+      "text": "we wanted to define it, let's say we",
+      "speaker": "S1"
+    },
+    {
+      "t": 362.46,
+      "text": "wanted to define it recursively, so this could",
+      "speaker": "S1"
+    },
+    {
+      "t": 365.68,
+      "text": "we could say this is equal to a",
+      "speaker": "S1"
+    },
+    {
+      "t": 369.04,
+      "text": "sub n, where n is starting at one,",
+      "speaker": "S1"
+    },
+    {
+      "t": 371.94,
+      "text": "and it's going to infinity, with, we'll say",
+      "speaker": "S1"
+    },
+    {
+      "t": 376.62,
+      "text": "our base case, a sub one is equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 378.86,
+      "text": "to one, and then for n is two",
+      "speaker": "S1"
+    },
+    {
+      "t": 381.72,
+      "text": "or greater, a sub n is going to",
+      "speaker": "S1"
+    },
+    {
+      "t": 383.96,
+      "text": "be equal to what?",
+      "speaker": "S1"
+    },
+    {
+      "t": 385.34,
+      "text": "So a sub two is the previous term,",
+      "speaker": "S1"
+    },
+    {
+      "t": 387.98,
+      "text": "plus two, a sub three is a previous",
+      "speaker": "S1"
+    },
+    {
+      "t": 390.18,
+      "text": "term, plus three, a sub four is a",
+      "speaker": "S1"
+    },
+    {
+      "t": 392.24,
+      "text": "previous term, plus four.",
+      "speaker": "S1"
+    },
+    {
+      "t": 394.04,
+      "text": "So it's going to be the previous term,",
+      "speaker": "S1"
+    },
+    {
+      "t": 396.06,
+      "text": "it's going to be the previous term, plus",
+      "speaker": "S1"
+    },
+    {
+      "t": 398.24,
+      "text": "whatever your index is, plus whatever your index",
+      "speaker": "S1"
+    },
+    {
+      "t": 401.7,
+      "text": "is.",
+      "speaker": "S1"
+    },
+    {
+      "t": 402.52,
+      "text": "So this looks close, but notice here we're",
+      "speaker": "S1"
+    },
+    {
+      "t": 404.9,
+      "text": "changing the amount that we're adding based on",
+      "speaker": "S1"
+    },
+    {
+      "t": 406.88,
+      "text": "what our index is, we're adding the amount",
+      "speaker": "S1"
+    },
+    {
+      "t": 408.38,
+      "text": "of index to the previous term, and so",
+      "speaker": "S1"
+    },
+    {
+      "t": 410.12,
+      "text": "this is four, n is greater than or",
+      "speaker": "S1"
+    },
+    {
+      "t": 412.52,
+      "text": "equal to two, while for an arithmetic sequence",
+      "speaker": "S1"
+    },
+    {
+      "t": 414.66,
+      "text": "we're adding the same amount regardless, regardless of",
+      "speaker": "S1"
+    },
+    {
+      "t": 418.18,
+      "text": "what our index is, here we're adding the",
+      "speaker": "S1"
+    },
+    {
+      "t": 420.74,
+      "text": "index itself, so this one is not arithmetic,",
+      "speaker": "S1"
+    },
+    {
+      "t": 423.2,
+      "text": "but it's an interesting sequence nonetheless.",
+      "speaker": "S1"
+    }
+  ],
+  "symbols": [
+    {
+      "t": 0,
+      "kind": "latex",
+      "data": "\\{-5, -3, -1, 1, ...\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 0,
+      "kind": "latex",
+      "data": "\\{100, 107, 114, 121, ...\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 0,
+      "kind": "latex",
+      "data": "\\{1, 3, 6, 10, ...\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 5,
+      "kind": "latex",
+      "data": "A_{n}U_{k}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 5,
+      "kind": "latex",
+      "data": "\\{-5,-3,-1,1,\\ldots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 5,
+      "kind": "latex",
+      "data": "\\{100,107,114,121,\\ldots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 5,
+      "kind": "latex",
+      "data": "\\{1,3,6,10,\\ldots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 10,
+      "kind": "latex",
+      "data": "\\text{Arithmetic \\text{sequence}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 15,
+      "kind": "latex",
+      "data": "\\textit{Arithmetic \\text{sequences}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 35
+    },
+    {
+      "t": 50,
+      "kind": "latex",
+      "data": "\\text{Arithmetic \\text{sequences}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 50,
+      "kind": "latex",
+      "data": "\\{-5,-3,\\_1,\\_1,\\ldots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 55,
+      "kind": "latex",
+      "data": "\\textbf{Arithmetic \\text{sequences}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 55,
+      "kind": "latex",
+      "data": "\\{-5,\\ -3,\\ -1,\\ 1,\\dots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 55,
+      "kind": "latex",
+      "data": "\\{100,\\ 107,\\ 114,\\ 121,\\dots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 55,
+      "kind": "latex",
+      "data": "\\{1,\\ 3,\\ 6,\\ 10,\\dots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 60,
+      "kind": "latex",
+      "data": "\\{-5,\\underbrace{-3}_{+2},\\underbrace{-1}_{+2},1,\\ldots\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 70,
+      "kind": "latex",
+      "data": "\\{a_n\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 75,
+      "kind": "latex",
+      "data": "\\left\\{-5,-3,-1,1,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 75,
+      "kind": "latex",
+      "data": "\\left\\{100, 107, 114, 121,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 75,
+      "kind": "latex",
+      "data": "\\left\\{1, 3, 6, 10,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 85,
+      "kind": "latex",
+      "data": "\\left\\{a_n \\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_n =",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 90,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}= \\rightarrow",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 95,
+      "kind": "latex",
+      "data": "\\left\\{a_n \\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_n = -5 + 2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 100,
+      "kind": "latex",
+      "data": "\\left\\{-5,\\ -3,\\ -1,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 100,
+      "kind": "latex",
+      "data": "\\left\\{a_n\\right\\}_{n=1}^{\\infty}\\ \\text{with}\\quad a_n=-5+2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 105,
+      "kind": "latex",
+      "data": "\\left\\{a_n \\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_n = -5 + 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 110,
+      "kind": "latex",
+      "data": "\\left\\{-5,\\underbrace{+2}_{-3},\\underbrace{+2}_{-1},\\underbrace{+2}_1,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 110,
+      "kind": "latex",
+      "data": "\\left\\{a_n\\right\\}_{n=1}^\\infty \\text{ \\text{with} } a_n = -5 + 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 15
+    },
+    {
+      "t": 125,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=-5+2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 130,
+      "kind": "latex",
+      "data": "a_{1}=-5",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "\\left\\{-5,\\ -3,\\ -1,\\ 1,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "a_{n}=a_{1}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "\\left\\{100,\\ 107,\\ 114,\\ 121,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 135,
+      "kind": "latex",
+      "data": "\\left\\{1,\\ 3,\\ 6,\\ 10,\\ldots\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 140,
+      "kind": "latex",
+      "data": "a_n = -5 + 2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 140,
+      "kind": "latex",
+      "data": "a_1 = -5",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 140,
+      "kind": "latex",
+      "data": "a_n = a_{n-1} + 3",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 145,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+2 \\quad \\text{for}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 150,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+2 \\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 160,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} }",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 160,
+      "kind": "latex",
+      "data": "a_{n} = -5 + 2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 40
+    },
+    {
+      "t": 200,
+      "kind": "latex",
+      "data": "a_{n} = 100 + 7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 25
+    },
+    {
+      "t": 225,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\quad a_{n} = 100 + 7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 235,
+      "kind": "latex",
+      "data": "a_n = a_{n-1} + 2 \\text{ \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 235,
+      "kind": "latex",
+      "data": "a_n = 100 + 7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 235,
+      "kind": "latex",
+      "data": "a_1 =",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 240,
+      "kind": "latex",
+      "data": "a_{1} = 100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 245,
+      "kind": "latex",
+      "data": "a_n = a_{n-1} + 2 \\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 245,
+      "kind": "latex",
+      "data": "a_1 = 100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 245,
+      "kind": "latex",
+      "data": "a_n = a_{n-1} + \\text{\\underline{?}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 250,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+7",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 255,
+      "kind": "latex",
+      "data": "a_n = a_{n-1} + 7",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 260,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{1} = 100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 270,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}= \\underbrace{+2}_{\\text{for } n \\geqslant 2}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 270,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}= 100 + 7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 270,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}= 100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 270,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}= a_{n-1} + 7",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 275,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\quad a_{n}=K",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 275,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 280,
+      "kind": "latex",
+      "data": "\\left\\{-5,\\underbrace{+2}_{=},3,-1,1,...\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 280,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\quad a_{n}=K+d",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 280,
+      "kind": "latex",
+      "data": "\\left\\{100,\\underbrace{+7}_{=},107,114,121,...\\right\\}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 285,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 285,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+2 \\text{ \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 290,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{1}=100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": "\\ldots",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": "\\left\\{a_{n} \\mid n=1\\right\\}, a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": ",107,114,121,\\ldots",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": "\\left\\{a_{n} \\mid n=1\\right\\}, a_{n}=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": "a_{n}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 295,
+      "kind": "latex",
+      "data": ",3,6,10,\\ldots",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 300,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\quad a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 310,
+      "kind": "latex",
+      "data": "a_{n} \\infty_{n=1} a_{n}=k+d(n-1) / a_{1}=k",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 310,
+      "kind": "latex",
+      "data": "a_{n} \\infty_{n=1} a_{n}=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 310,
+      "kind": "latex",
+      "data": "a_{n} \\infty_{n=1} a_{1}=100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 315,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\quad a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 315,
+      "kind": "latex",
+      "data": "a_{1}=k",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 315,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+d",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 320,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}=k+2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 320,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty}, \\quad a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 320,
+      "kind": "latex",
+      "data": "a_1=k",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 320,
+      "kind": "latex",
+      "data": "a_n=a_{n-1}+d \\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 325,
+      "kind": "latex",
+      "data": "a_{n} \\infty n=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 325,
+      "kind": "latex",
+      "data": "a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 325,
+      "kind": "latex",
+      "data": "\\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 330,
+      "kind": "latex",
+      "data": "a_{n} \\in \\mathbb{N}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=k+2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 330,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+d \\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 330,
+      "kind": "latex",
+      "data": "a_{n} \\in \\mathbb{N}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 335,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 335,
+      "kind": "latex",
+      "data": "a_n=a_{n-1}+d",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 335,
+      "kind": "latex",
+      "data": "\\text{ \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 335,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_n=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 15
+    },
+    {
+      "t": 350,
+      "kind": "latex",
+      "data": "a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 350,
+      "kind": "latex",
+      "data": "a_{1}=K",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 350,
+      "kind": "latex",
+      "data": "\\text{Not \\text{arithmetic}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 355,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 355,
+      "kind": "latex",
+      "data": "\\left\\{1,3,6,10,\\ldots\\right\\} \\text{ \\text{Not arithmetic}}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 20
+    },
+    {
+      "t": 375,
+      "kind": "latex",
+      "data": "\\text { \\text{Not arithmetic} }",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 380,
+      "kind": "latex",
+      "data": "\\text { \\text{with} } a_{n}=a_{n-1}+7",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 380,
+      "kind": "latex",
+      "data": "a_{1}=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 380,
+      "kind": "latex",
+      "data": "\\text { \\text{with} } a_{n}=a_{n-1}+2(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 10
+    },
+    {
+      "t": 390,
+      "kind": "latex",
+      "data": "\\text { \\text{with} } a_{n}=",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "\\infty",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "n=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": ", -3, -1, 1, \\ldots",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "\\text{ \\text{with} } a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "\\text{ \\text{with} } a_{n}=100+7(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "\\text{ \\text{with} } a_{1}=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 395,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\quad a_1 = k",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\quad a_n = a_{n-1} + d \\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_1 = 100",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\quad a_n = a_{n-1} + 7",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\left\\{a_{n}\\right\\}_{n=1}^{\\infty} \\text{ \\text{with} } a_1 = 1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 400,
+      "kind": "latex",
+      "data": "\\quad a_n = a_{n-1} + n",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 405,
+      "kind": "latex",
+      "data": "\\text{ \\text{with} } a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 410,
+      "kind": "latex",
+      "data": "a_{n} \\infty n=1 \\text { \\text{with} } a_{n}=k+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 410,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+d \\quad \\text { \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 410,
+      "kind": "latex",
+      "data": "a_{n} \\infty n=1 \\text { \\text{with} } a_{1}=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 410,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+7 \\quad \\text { \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 415,
+      "kind": "latex",
+      "data": "a_{n} \\in \\mathbb{N}_{n=1}^{\\infty} \\text{ \\text{with} } a_{n}=K+d(n-1)",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 415,
+      "kind": "latex",
+      "data": "\\quad \\text{for } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 415,
+      "kind": "latex",
+      "data": "a_{n} \\in \\mathbb{N}_{n=1}^{\\infty} \\text{ \\text{with} } a_{1}=1",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 0.5
+    },
+    {
+      "t": 415,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+n",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5
+    },
+    {
+      "t": 420,
+      "kind": "latex",
+      "data": "a_{n}=a_{n-1}+7 \\text{ \\text{for} } n \\geq 2",
+      "verify": {
+        "source": "ocr",
+        "confidence": null,
+        "status": "flagged"
+      },
+      "duration_s": 5.99
+    }
+  ],
+  "scenes": [
+    {
+      "t": 0,
+      "layout": "whiteboard",
+      "background": "white"
+    }
+  ]
+}

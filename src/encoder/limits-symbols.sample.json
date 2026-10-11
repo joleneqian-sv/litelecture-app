@@ -1,0 +1,14 @@
+[
+  {
+    "t": 26.0,
+    "kind": "latex",
+    "data": "f(x) = \\frac{x - 1}{x - 1} \\implies f(x) = 1,\\ x \\neq 1",
+    "duration_s": 180.0
+  },
+  {
+    "t": 60.0,
+    "kind": "latex",
+    "data": "f(1) = \\frac{0}{0}",
+    "duration_s": 146.0
+  }
+]

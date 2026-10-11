@@ -1,0 +1,1399 @@
+{
+  "format": "litelec",
+  "version": "0.1",
+  "source": {
+    "title": "Solving a more complicated equation | Linear equations | Algebra I | Khan Academy",
+    "url": "https://www.youtube.com/watch?v=XoEn1LfVoTo",
+    "creator": "Khan Academy",
+    "duration_s": 520.39,
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "modified": true,
+    "modification_note": "Encoded by LiteLecture v0.1: audio transcribed with faster-whisper; formulas transcribed from the spoken worked examples (3x+5=17 -> x=4; 7x=-8 -> x=-8/7). Spoken math via auto MathSpeak.",
+    "original_bytes": 8951824
+  },
+  "audio": {
+    "mode": "tts_only"
+  },
+  "transcript": [
+    {
+      "t": 0.0,
+      "text": "Let's try some slightly more complicated equations.",
+      "speaker": "S1"
+    },
+    {
+      "t": 3.38,
+      "text": "Let's say we have 3 times x plus",
+      "speaker": "S1"
+    },
+    {
+      "t": 7.6,
+      "text": "5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 11.24,
+      "text": "I want to make sure I get all",
+      "speaker": "S1"
+    },
+    {
+      "t": 13.8,
+      "text": "the colors nice.",
+      "speaker": "S1"
+    },
+    {
+      "t": 15.38,
+      "text": "Plus 5 is equal to is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 23.3,
+      "text": "17.",
+      "speaker": "S1"
+    },
+    {
+      "t": 25.48,
+      "text": "So what's different about this and what we",
+      "speaker": "S1"
+    },
+    {
+      "t": 29.06,
+      "text": "saw in the last video is all of",
+      "speaker": "S1"
+    },
+    {
+      "t": 30.18,
+      "text": "a sudden now we have this plus 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 32.18,
+      "text": "If it was just 3x is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 33.58,
+      "text": "17, you could divide both sides by 3",
+      "speaker": "S1"
+    },
+    {
+      "t": 35.94,
+      "text": "and you would get your answer.",
+      "speaker": "S1"
+    },
+    {
+      "t": 37.58,
+      "text": "But now this 5 seems to mess things",
+      "speaker": "S1"
+    },
+    {
+      "t": 39.94,
+      "text": "up a little bit.",
+      "speaker": "S1"
+    },
+    {
+      "t": 41.02,
+      "text": "Now before we even solve it, let's think",
+      "speaker": "S1"
+    },
+    {
+      "t": 43.12,
+      "text": "about what it's saying.",
+      "speaker": "S1"
+    },
+    {
+      "t": 44.1,
+      "text": "Let's solve it in a tangible way and",
+      "speaker": "S1"
+    },
+    {
+      "t": 46.86,
+      "text": "then we'll solve it using operations that hopefully",
+      "speaker": "S1"
+    },
+    {
+      "t": 49.12,
+      "text": "will make sense after that.",
+      "speaker": "S1"
+    },
+    {
+      "t": 50.68,
+      "text": "So 3 times x literally means, so let",
+      "speaker": "S1"
+    },
+    {
+      "t": 53.48,
+      "text": "me write it over here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 54.42,
+      "text": "So we have 3 times x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 55.56,
+      "text": "So you literally have an x plus an",
+      "speaker": "S1"
+    },
+    {
+      "t": 57.82,
+      "text": "x plus an x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 59.82,
+      "text": "That right there is a 3x and then",
+      "speaker": "S1"
+    },
+    {
+      "t": 61.82,
+      "text": "that's plus 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 63.28,
+      "text": "And I'm actually going to write it out",
+      "speaker": "S1"
+    },
+    {
+      "t": 64.22,
+      "text": "as 5 objects.",
+      "speaker": "S1"
+    },
+    {
+      "t": 65.88,
+      "text": "So plus 1, 2, 3, 4, 5, this",
+      "speaker": "S1"
+    },
+    {
+      "t": 71.78,
+      "text": "right here is 3x plus 5 is equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 75.58,
+      "text": "to 17.",
+      "speaker": "S1"
+    },
+    {
+      "t": 77.28,
+      "text": "Is equal to 17.",
+      "speaker": "S1"
+    },
+    {
+      "t": 79.42,
+      "text": "So let me write the equal sign is",
+      "speaker": "S1"
+    },
+    {
+      "t": 81.38,
+      "text": "equal to 17.",
+      "speaker": "S1"
+    },
+    {
+      "t": 83.1,
+      "text": "Now let me draw 17 objects here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 85.92,
+      "text": "So 1, 2, 3, 4, 5, 6, 7,",
+      "speaker": "S1"
+    },
+    {
+      "t": 90.58,
+      "text": "8, 9, 10, 11, 12, 13, 14, 15,",
+      "speaker": "S1"
+    },
+    {
+      "t": 95.56,
+      "text": "16, 17.",
+      "speaker": "S1"
+    },
+    {
+      "t": 97.94,
+      "text": "Now these two things are equal.",
+      "speaker": "S1"
+    },
+    {
+      "t": 100.22,
+      "text": "So anything you do to this side, you'd",
+      "speaker": "S1"
+    },
+    {
+      "t": 101.62,
+      "text": "have to do to that side.",
+      "speaker": "S1"
+    },
+    {
+      "t": 102.42,
+      "text": "If we were to get rid of one",
+      "speaker": "S1"
+    },
+    {
+      "t": 103.2,
+      "text": "object here, you'd want to get rid of",
+      "speaker": "S1"
+    },
+    {
+      "t": 104.58,
+      "text": "one object there in order for the equality",
+      "speaker": "S1"
+    },
+    {
+      "t": 106.38,
+      "text": "to still be true.",
+      "speaker": "S1"
+    },
+    {
+      "t": 108.62,
+      "text": "Now what can we do to both sides",
+      "speaker": "S1"
+    },
+    {
+      "t": 110.98,
+      "text": "of this equation?",
+      "speaker": "S1"
+    },
+    {
+      "t": 111.76,
+      "text": "So we can get it in the form",
+      "speaker": "S1"
+    },
+    {
+      "t": 113.32,
+      "text": "that we're used to where we only have",
+      "speaker": "S1"
+    },
+    {
+      "t": 115.02,
+      "text": "a 3x on the left hand side where",
+      "speaker": "S1"
+    },
+    {
+      "t": 116.92,
+      "text": "we don't have this 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 118.6,
+      "text": "Well ideally we would just get rid of",
+      "speaker": "S1"
+    },
+    {
+      "t": 120.44,
+      "text": "these 5 objects here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 122.12,
+      "text": "You would literally get rid of these 5",
+      "speaker": "S1"
+    },
+    {
+      "t": 123.92,
+      "text": "objects, 1, 2, 3, 4, 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 126.68,
+      "text": "But like I said, if the original thing",
+      "speaker": "S1"
+    },
+    {
+      "t": 128.58,
+      "text": "was equal to the original thing on the",
+      "speaker": "S1"
+    },
+    {
+      "t": 130.0,
+      "text": "right, if we get rid of 5 objects",
+      "speaker": "S1"
+    },
+    {
+      "t": 132.02,
+      "text": "from the left hand side, we have to",
+      "speaker": "S1"
+    },
+    {
+      "t": 133.54,
+      "text": "get rid of 5 objects from the right",
+      "speaker": "S1"
+    },
+    {
+      "t": 135.06,
+      "text": "hand side.",
+      "speaker": "S1"
+    },
+    {
+      "t": 136.12,
+      "text": "So we have to do it here, 2,",
+      "speaker": "S1"
+    },
+    {
+      "t": 137.52,
+      "text": "1, 2, 3, 4, 5.",
+      "speaker": "S1"
+    },
+    {
+      "t": 139.86,
+      "text": "Now what is a symbolic way of representing",
+      "speaker": "S1"
+    },
+    {
+      "t": 143.44,
+      "text": "taking away 5 things?",
+      "speaker": "S1"
+    },
+    {
+      "t": 145.66,
+      "text": "Well you're subtracting 5 from both sides of",
+      "speaker": "S1"
+    },
+    {
+      "t": 148.08,
+      "text": "this equation.",
+      "speaker": "S1"
+    },
+    {
+      "t": 149.34,
+      "text": "So that's what we're doing here, when we",
+      "speaker": "S1"
+    },
+    {
+      "t": 150.92,
+      "text": "took away 5 from the left and from",
+      "speaker": "S1"
+    },
+    {
+      "t": 152.72,
+      "text": "the right.",
+      "speaker": "S1"
+    },
+    {
+      "t": 153.44,
+      "text": "So we're subtracting 5 from the left, that's",
+      "speaker": "S1"
+    },
+    {
+      "t": 155.78,
+      "text": "what we did here, and we're also subtracting",
+      "speaker": "S1"
+    },
+    {
+      "t": 157.9,
+      "text": "5 from the right.",
+      "speaker": "S1"
+    },
+    {
+      "t": 159.48,
+      "text": "Do that right over there.",
+      "speaker": "S1"
+    },
+    {
+      "t": 161.28,
+      "text": "Now what is the left hand side of",
+      "speaker": "S1"
+    },
+    {
+      "t": 163.12,
+      "text": "the equation now become?",
+      "speaker": "S1"
+    },
+    {
+      "t": 164.1,
+      "text": "The left hand side you have 5 minus",
+      "speaker": "S1"
+    },
+    {
+      "t": 166.64,
+      "text": "5, these cancel out, you're just left with",
+      "speaker": "S1"
+    },
+    {
+      "t": 168.96,
+      "text": "the 3x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 170.66,
+      "text": "You are just left with, it's a different",
+      "speaker": "S1"
+    },
+    {
+      "t": 173.06,
+      "text": "shade of green.",
+      "speaker": "S1"
+    },
+    {
+      "t": 174.4,
+      "text": "You are just left with the 3x, the",
+      "speaker": "S1"
+    },
+    {
+      "t": 178.96,
+      "text": "5 and the negative 5 cancelled out.",
+      "speaker": "S1"
+    },
+    {
+      "t": 181.26,
+      "text": "And you see that here, when you got",
+      "speaker": "S1"
+    },
+    {
+      "t": 182.52,
+      "text": "rid of these 5 objects, we were just",
+      "speaker": "S1"
+    },
+    {
+      "t": 184.22,
+      "text": "left with the 3x's.",
+      "speaker": "S1"
+    },
+    {
+      "t": 186.42,
+      "text": "This right here is the 3x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 189.16,
+      "text": "And the whole reason why we subtracted 5",
+      "speaker": "S1"
+    },
+    {
+      "t": 190.98,
+      "text": "is because we wanted this 5 to go",
+      "speaker": "S1"
+    },
+    {
+      "t": 192.92,
+      "text": "away.",
+      "speaker": "S1"
+    },
+    {
+      "t": 193.16,
+      "text": "Now what does the right hand side of",
+      "speaker": "S1"
+    },
+    {
+      "t": 195.06,
+      "text": "the equation look like?",
+      "speaker": "S1"
+    },
+    {
+      "t": 196.64,
+      "text": "So it's 3x is going to be, let",
+      "speaker": "S1"
+    },
+    {
+      "t": 198.36,
+      "text": "me write the equality sign right under it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 200.2,
+      "text": "Is equal to, well you can either just",
+      "speaker": "S1"
+    },
+    {
+      "t": 202.1,
+      "text": "do it mathematically and say 17 minus 5,",
+      "speaker": "S1"
+    },
+    {
+      "t": 204.84,
+      "text": "17 minus 5 is 12.",
+      "speaker": "S1"
+    },
+    {
+      "t": 208.08,
+      "text": "Or, you can just count over here, I",
+      "speaker": "S1"
+    },
+    {
+      "t": 209.96,
+      "text": "had 17 things, I took away 5, I",
+      "speaker": "S1"
+    },
+    {
+      "t": 211.94,
+      "text": "have 12 left.",
+      "speaker": "S1"
+    },
+    {
+      "t": 212.86,
+      "text": "1, 2, 3, 4, 5, 6, 7, 8,",
+      "speaker": "S1"
+    },
+    {
+      "t": 215.26,
+      "text": "9, 10, 11, 12, 12.",
+      "speaker": "S1"
+    },
+    {
+      "t": 217.8,
+      "text": "That's what subtraction is.",
+      "speaker": "S1"
+    },
+    {
+      "t": 219.08,
+      "text": "It's just taking away 5 things.",
+      "speaker": "S1"
+    },
+    {
+      "t": 220.56,
+      "text": "So now we have it in a pretty",
+      "speaker": "S1"
+    },
+    {
+      "t": 222.34,
+      "text": "straight forward form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 223.84,
+      "text": "3x is equal to 12.",
+      "speaker": "S1"
+    },
+    {
+      "t": 226.04,
+      "text": "All we have to do is divide both",
+      "speaker": "S1"
+    },
+    {
+      "t": 227.78,
+      "text": "sides of this equation by 3.",
+      "speaker": "S1"
+    },
+    {
+      "t": 230.22,
+      "text": "So we are just left with an x",
+      "speaker": "S1"
+    },
+    {
+      "t": 232.66,
+      "text": "on the left hand side.",
+      "speaker": "S1"
+    },
+    {
+      "t": 233.94,
+      "text": "So we divide by, let me pick a",
+      "speaker": "S1"
+    },
+    {
+      "t": 235.34,
+      "text": "nicer color than that.",
+      "speaker": "S1"
+    },
+    {
+      "t": 236.7,
+      "text": "Let me do this pink color.",
+      "speaker": "S1"
+    },
+    {
+      "t": 240.32,
+      "text": "So you divide the left hand side by",
+      "speaker": "S1"
+    },
+    {
+      "t": 241.72,
+      "text": "3, the right hand side by 3.",
+      "speaker": "S1"
+    },
+    {
+      "t": 243.56,
+      "text": "And remember what that's equivalent to, the left",
+      "speaker": "S1"
+    },
+    {
+      "t": 245.44,
+      "text": "hand side, none of this stuff exists anymore.",
+      "speaker": "S1"
+    },
+    {
+      "t": 247.98,
+      "text": "So we should ignore it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 249.02,
+      "text": "None of this stuff exists anymore.",
+      "speaker": "S1"
+    },
+    {
+      "t": 251.12,
+      "text": "In fact, let me, let me clear it",
+      "speaker": "S1"
+    },
+    {
+      "t": 252.32,
+      "text": "out just so that we don't even have",
+      "speaker": "S1"
+    },
+    {
+      "t": 253.52,
+      "text": "to look at it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 254.18,
+      "text": "We subtracted it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 255.4,
+      "text": "So let me clear it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 257.4,
+      "text": "Let me clear it over here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 260.1,
+      "text": "Let me clear it over here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 261.8,
+      "text": "And so now we are dividing both sides",
+      "speaker": "S1"
+    },
+    {
+      "t": 263.6,
+      "text": "by 3.",
+      "speaker": "S1"
+    },
+    {
+      "t": 264.3,
+      "text": "Divide the left hand side by 3, it's",
+      "speaker": "S1"
+    },
+    {
+      "t": 265.64,
+      "text": "1, 2, 3.",
+      "speaker": "S1"
+    },
+    {
+      "t": 267.9,
+      "text": "So 3 groups, each of them have an",
+      "speaker": "S1"
+    },
+    {
+      "t": 269.96,
+      "text": "x in it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 270.52,
+      "text": "And if you divide this right hand side",
+      "speaker": "S1"
+    },
+    {
+      "t": 271.88,
+      "text": "by 3, let's see, you have 1, 2,",
+      "speaker": "S1"
+    },
+    {
+      "t": 274.8,
+      "text": "and 3.",
+      "speaker": "S1"
+    },
+    {
+      "t": 275.54,
+      "text": "So it's 3 groups of 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 277.86,
+      "text": "So when you do it mathematically here, the",
+      "speaker": "S1"
+    },
+    {
+      "t": 280.58,
+      "text": "3s cancel out.",
+      "speaker": "S1"
+    },
+    {
+      "t": 281.68,
+      "text": "3 times something divided by 3 is just",
+      "speaker": "S1"
+    },
+    {
+      "t": 283.36,
+      "text": "the something.",
+      "speaker": "S1"
+    },
+    {
+      "t": 284.24,
+      "text": "So you're left with x is equal to,",
+      "speaker": "S1"
+    },
+    {
+      "t": 287.34,
+      "text": "and then 12 divided by 3 is 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 290.88,
+      "text": "12 divided by 3 is 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 293.1,
+      "text": "You get x is equal to 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 294.38,
+      "text": "You get that exact same thing over here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 296.42,
+      "text": "When you divide it 3x into groups of",
+      "speaker": "S1"
+    },
+    {
+      "t": 297.9,
+      "text": "3, each of the groups had an x",
+      "speaker": "S1"
+    },
+    {
+      "t": 300.98,
+      "text": "in it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 301.7,
+      "text": "And when you divide it 12 into groups",
+      "speaker": "S1"
+    },
+    {
+      "t": 303.12,
+      "text": "of 3, each of the groups have a",
+      "speaker": "S1"
+    },
+    {
+      "t": 304.84,
+      "text": "4 in it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 305.5,
+      "text": "So x must be equal to 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 309.02,
+      "text": "x is equal to 4.",
+      "speaker": "S1"
+    },
+    {
+      "t": 312.24,
+      "text": "Let's do another one.",
+      "speaker": "S1"
+    },
+    {
+      "t": 313.2,
+      "text": "And this time I won't draw it all",
+      "speaker": "S1"
+    },
+    {
+      "t": 314.46,
+      "text": "out like this, but hopefully you'll see that",
+      "speaker": "S1"
+    },
+    {
+      "t": 316.48,
+      "text": "the same type of processes are involved.",
+      "speaker": "S1"
+    },
+    {
+      "t": 320.62,
+      "text": "Let's say I have, let me scroll down",
+      "speaker": "S1"
+    },
+    {
+      "t": 322.72,
+      "text": "a little bit.",
+      "speaker": "S1"
+    },
+    {
+      "t": 324.08,
+      "text": "Let's say I have 7x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 327.88,
+      "text": "So 7x, 7x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 334.14,
+      "text": "I'll do a slightly more complicated one this",
+      "speaker": "S1"
+    },
+    {
+      "t": 336.48,
+      "text": "time.",
+      "speaker": "S1"
+    },
+    {
+      "t": 337.08,
+      "text": "7x minus 2 is equal to, let's say,",
+      "speaker": "S1"
+    },
+    {
+      "t": 345.32,
+      "text": "is equal to, I'll make the numbers not",
+      "speaker": "S1"
+    },
+    {
+      "t": 347.96,
+      "text": "work out nice and clean, is equal to",
+      "speaker": "S1"
+    },
+    {
+      "t": 350.68,
+      "text": "negative 10.",
+      "speaker": "S1"
+    },
+    {
+      "t": 353.64,
+      "text": "Now this all of a sudden becomes a",
+      "speaker": "S1"
+    },
+    {
+      "t": 355.42,
+      "text": "lot more, you know, you have a negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 357.82,
+      "text": "sign.",
+      "speaker": "S1"
+    },
+    {
+      "t": 358.54,
+      "text": "We have a negative over here, but we're",
+      "speaker": "S1"
+    },
+    {
+      "t": 360.18,
+      "text": "going to do the exact same thing.",
+      "speaker": "S1"
+    },
+    {
+      "t": 362.18,
+      "text": "The first thing we want to do, if",
+      "speaker": "S1"
+    },
+    {
+      "t": 363.38,
+      "text": "we want to get the left-hand side",
+      "speaker": "S1"
+    },
+    {
+      "t": 364.64,
+      "text": "simplified to just 7x, is we want to",
+      "speaker": "S1"
+    },
+    {
+      "t": 367.12,
+      "text": "get rid of this negative 2.",
+      "speaker": "S1"
+    },
+    {
+      "t": 368.92,
+      "text": "And what can we add or subtract to",
+      "speaker": "S1"
+    },
+    {
+      "t": 371.08,
+      "text": "both sides of the equation to get rid",
+      "speaker": "S1"
+    },
+    {
+      "t": 372.74,
+      "text": "of this negative 2?",
+      "speaker": "S1"
+    },
+    {
+      "t": 374.06,
+      "text": "Well, if we add 2 to the left",
+      "speaker": "S1"
+    },
+    {
+      "t": 376.1,
+      "text": "-hand side, these two guys will cancel out.",
+      "speaker": "S1"
+    },
+    {
+      "t": 379.0,
+      "text": "But remember, this is equal to that.",
+      "speaker": "S1"
+    },
+    {
+      "t": 381.4,
+      "text": "If we want the equality still hold, if",
+      "speaker": "S1"
+    },
+    {
+      "t": 383.28,
+      "text": "we add 2 to the left-hand side,",
+      "speaker": "S1"
+    },
+    {
+      "t": 384.44,
+      "text": "we also have to do it to the",
+      "speaker": "S1"
+    },
+    {
+      "t": 386.56,
+      "text": "right-hand side.",
+      "speaker": "S1"
+    },
+    {
+      "t": 387.8,
+      "text": "So what is the new left-hand side",
+      "speaker": "S1"
+    },
+    {
+      "t": 389.72,
+      "text": "going to be equal to?",
+      "speaker": "S1"
+    },
+    {
+      "t": 391.82,
+      "text": "So we have 7x, 7x, negative 2 plus",
+      "speaker": "S1"
+    },
+    {
+      "t": 395.56,
+      "text": "2 is just 0.",
+      "speaker": "S1"
+    },
+    {
+      "t": 396.96,
+      "text": "I could write plus is 0, I could",
+      "speaker": "S1"
+    },
+    {
+      "t": 398.22,
+      "text": "just write nothing there and I'll just write",
+      "speaker": "S1"
+    },
+    {
+      "t": 399.52,
+      "text": "nothing.",
+      "speaker": "S1"
+    },
+    {
+      "t": 400.38,
+      "text": "So we get 7x is equal to, now",
+      "speaker": "S1"
+    },
+    {
+      "t": 402.42,
+      "text": "what's negative 10 plus 2?",
+      "speaker": "S1"
+    },
+    {
+      "t": 404.74,
+      "text": "And this is a little bit of review",
+      "speaker": "S1"
+    },
+    {
+      "t": 405.96,
+      "text": "of adding and subtracting negative numbers.",
+      "speaker": "S1"
+    },
+    {
+      "t": 408.76,
+      "text": "Remember, I'll draw the number line here for",
+      "speaker": "S1"
+    },
+    {
+      "t": 411.02,
+      "text": "you.",
+      "speaker": "S1"
+    },
+    {
+      "t": 411.56,
+      "text": "If I draw the number line, so if",
+      "speaker": "S1"
+    },
+    {
+      "t": 414.18,
+      "text": "this is 0, this is 1, we could",
+      "speaker": "S1"
+    },
+    {
+      "t": 416.44,
+      "text": "keep going in the positive direction.",
+      "speaker": "S1"
+    },
+    {
+      "t": 418.28,
+      "text": "Negative 10 is out here, negative 10, negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 420.62,
+      "text": "9, negative 8, negative 7.",
+      "speaker": "S1"
+    },
+    {
+      "t": 423.82,
+      "text": "There's a bunch of numbers here, you know,",
+      "speaker": "S1"
+    },
+    {
+      "t": 426.1,
+      "text": "dot, dot, dot.",
+      "speaker": "S1"
+    },
+    {
+      "t": 426.92,
+      "text": "I don't have space to draw them all,",
+      "speaker": "S1"
+    },
+    {
+      "t": 428.54,
+      "text": "but we're starting at negative 10.",
+      "speaker": "S1"
+    },
+    {
+      "t": 429.86,
+      "text": "And we're adding 2 to it.",
+      "speaker": "S1"
+    },
+    {
+      "t": 433.44,
+      "text": "So we're moving in the positive direction on",
+      "speaker": "S1"
+    },
+    {
+      "t": 435.16,
+      "text": "the number line.",
+      "speaker": "S1"
+    },
+    {
+      "t": 435.72,
+      "text": "So we're going 1, 2.",
+      "speaker": "S1"
+    },
+    {
+      "t": 437.78,
+      "text": "So it's negative 8.",
+      "speaker": "S1"
+    },
+    {
+      "t": 439.52,
+      "text": "Don't get confused.",
+      "speaker": "S1"
+    },
+    {
+      "t": 440.54,
+      "text": "Don't say, okay, 10 plus 2 is 12.",
+      "speaker": "S1"
+    },
+    {
+      "t": 442.44,
+      "text": "So negative 10 plus 2 is negative 12.",
+      "speaker": "S1"
+    },
+    {
+      "t": 444.0,
+      "text": "No, negative 10 minus 2 would be negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 446.66,
+      "text": "12 because we're going more negative.",
+      "speaker": "S1"
+    },
+    {
+      "t": 448.44,
+      "text": "Here, we're having a negative number, but we're",
+      "speaker": "S1"
+    },
+    {
+      "t": 450.12,
+      "text": "going to the right.",
+      "speaker": "S1"
+    },
+    {
+      "t": 450.92,
+      "text": "We're going in the positive direction.",
+      "speaker": "S1"
+    },
+    {
+      "t": 452.26,
+      "text": "So this is negative 8.",
+      "speaker": "S1"
+    },
+    {
+      "t": 454.88,
+      "text": "So we have 7x is equal to negative",
+      "speaker": "S1"
+    },
+    {
+      "t": 457.06,
+      "text": "8.",
+      "speaker": "S1"
+    },
+    {
+      "t": 457.36,
+      "text": "So now you might be saying, well, how",
+      "speaker": "S1"
+    },
+    {
+      "t": 458.96,
+      "text": "do I do this type of a problem?",
+      "speaker": "S1"
+    },
+    {
+      "t": 462.36,
+      "text": "You know, I have a negative number here.",
+      "speaker": "S1"
+    },
+    {
+      "t": 463.92,
+      "text": "You do the exact same way.",
+      "speaker": "S1"
+    },
+    {
+      "t": 465.82,
+      "text": "If we want to just have an x",
+      "speaker": "S1"
+    },
+    {
+      "t": 467.52,
+      "text": "on the left-hand side, we have to",
+      "speaker": "S1"
+    },
+    {
+      "t": 469.3,
+      "text": "divide the left-hand side by 7 so",
+      "speaker": "S1"
+    },
+    {
+      "t": 471.92,
+      "text": "that the 7x divided by 7, just the",
+      "speaker": "S1"
+    },
+    {
+      "t": 474.26,
+      "text": "7s cancel out, you're left with x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 476.54,
+      "text": "So let's do that.",
+      "speaker": "S1"
+    },
+    {
+      "t": 477.96,
+      "text": "If you divide by 7, those cancel out,",
+      "speaker": "S1"
+    },
+    {
+      "t": 479.84,
+      "text": "but you can't just do it to the",
+      "speaker": "S1"
+    },
+    {
+      "t": 481.18,
+      "text": "left-hand side.",
+      "speaker": "S1"
+    },
+    {
+      "t": 482.12,
+      "text": "Anything you do to the left, you have",
+      "speaker": "S1"
+    },
+    {
+      "t": 483.1,
+      "text": "to do the right in order for the",
+      "speaker": "S1"
+    },
+    {
+      "t": 484.72,
+      "text": "equality to still hold true.",
+      "speaker": "S1"
+    },
+    {
+      "t": 486.2,
+      "text": "So let's divide the right by 7 as",
+      "speaker": "S1"
+    },
+    {
+      "t": 489.54,
+      "text": "well.",
+      "speaker": "S1"
+    },
+    {
+      "t": 490.42,
+      "text": "And we are left with just an x.",
+      "speaker": "S1"
+    },
+    {
+      "t": 493.18,
+      "text": "Just an x is equal to negative 8",
+      "speaker": "S1"
+    },
+    {
+      "t": 495.74,
+      "text": "divided by 7.",
+      "speaker": "S1"
+    },
+    {
+      "t": 496.74,
+      "text": "We can work it out.",
+      "speaker": "S1"
+    },
+    {
+      "t": 497.54,
+      "text": "It'll be some type of a decimal if",
+      "speaker": "S1"
+    },
+    {
+      "t": 499.3,
+      "text": "you were to use a calculator.",
+      "speaker": "S1"
+    },
+    {
+      "t": 499.92,
+      "text": "Or you could just leave it in fraction",
+      "speaker": "S1"
+    },
+    {
+      "t": 501.18,
+      "text": "form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 501.92,
+      "text": "Negative 8 divided by 7 is negative 8",
+      "speaker": "S1"
+    },
+    {
+      "t": 504.98,
+      "text": "-7.",
+      "speaker": "S1"
+    },
+    {
+      "t": 505.9,
+      "text": "Negative 8-7.",
+      "speaker": "S1"
+    },
+    {
+      "t": 507.52,
+      "text": "Or if you want to write it as",
+      "speaker": "S1"
+    },
+    {
+      "t": 508.42,
+      "text": "a mixed number, x is equal to 7",
+      "speaker": "S1"
+    },
+    {
+      "t": 510.82,
+      "text": "goes into 8 one time and has a",
+      "speaker": "S1"
+    },
+    {
+      "t": 512.74,
+      "text": "remainder of 1.",
+      "speaker": "S1"
+    },
+    {
+      "t": 513.42,
+      "text": "So it's negative 1 and 1-7.",
+      "speaker": "S1"
+    },
+    {
+      "t": 516.34,
+      "text": "Either one would be acceptable.",
+      "speaker": "S1"
+    }
+  ],
+  "symbols": [
+    {
+      "t": 15.0,
+      "kind": "latex",
+      "data": "3x + 5 = 17",
+      "duration_s": 190.0
+    },
+    {
+      "t": 55.0,
+      "kind": "tokens",
+      "duration_s": 55.0,
+      "groups": [
+        {
+          "shape": "box",
+          "label": "x",
+          "count": 3
+        },
+        {
+          "shape": "dot",
+          "count": 5
+        }
+      ],
+      "equals": {
+        "shape": "dot",
+        "count": 17
+      },
+      "alt": "Three x-boxes plus five dots equals seventeen dots."
+    },
+    {
+      "t": 205.0,
+      "kind": "latex",
+      "data": "3x = 12",
+      "duration_s": 85.0
+    },
+    {
+      "t": 287.0,
+      "kind": "latex",
+      "data": "x = 4",
+      "duration_s": 75.0
+    },
+    {
+      "t": 455.0,
+      "kind": "latex",
+      "data": "7x = -8",
+      "duration_s": 40.0
+    },
+    {
+      "t": 493.0,
+      "kind": "latex",
+      "data": "x = -\\frac{8}{7}",
+      "duration_s": 27.0
+    }
+  ],
+  "scenes": [
+    {
+      "t": 0,
+      "layout": "whiteboard",
+      "background": "white"
+    }
+  ],
+  "emphasis": [
+    {
+      "t": 306.0,
+      "target": 3,
+      "style": "circle",
+      "duration_s": 18.0
+    },
+    {
+      "t": 502.0,
+      "target": 5,
+      "style": "circle",
+      "duration_s": 16.0
+    }
+  ]
+}

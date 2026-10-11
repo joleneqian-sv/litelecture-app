@@ -1,0 +1,12 @@
+{
+  "name": "LiteLecture",
+  "short_name": "LiteLecture",
+  "description": "Bandwidth-light, accessible lecture player that works offline.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2b4a8b",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "format": "litelec",
+  "version": "0.1",
+  "source": {
+    "title": "Converting percent to decimal and fraction | Decimals | Pre-Algebra | Khan Academy",
+    "url": "https://www.youtube.com/watch?v=-gB1y-PMWfs",
+    "creator": "Khan Academy",
+    "duration_s": 211.89,
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "modified": true,
+    "modification_note": "Encoded by LiteLecture v0.1: audio transcribed with faster-whisper; formulas transcribed from the spoken worked example (18% = 18/100 = 0.18 = 9/50), aligned to the narration.",
+    "original_bytes": 4304301
+  },
+  "audio": {
+    "mode": "tts_only"
+  },
+  "transcript": [
+    {
+      "t": 0.0,
+      "text": "Write 18% as a decimal and as",
+      "speaker": "S1"
+    },
+    {
+      "t": 4.32,
+      "text": "a fraction in simplest form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 6.2,
+      "text": "So let's do it as a decimal first.",
+      "speaker": "S1"
+    },
+    {
+      "t": 8.62,
+      "text": "So 18%, 18% is the same thing",
+      "speaker": "S1"
+    },
+    {
+      "t": 12.66,
+      "text": "as 18 per hundred, or 18 per cent.",
+      "speaker": "S1"
+    },
+    {
+      "t": 17.92,
+      "text": "I'm actually separating out the percent, where this",
+      "speaker": "S1"
+    },
+    {
+      "t": 20.14,
+      "text": "won't be one word, but I'm writing it",
+      "speaker": "S1"
+    },
+    {
+      "t": 21.34,
+      "text": "as literally per cent.",
+      "speaker": "S1"
+    },
+    {
+      "t": 23.06,
+      "text": "Cent means the same thing as hundred, so",
+      "speaker": "S1"
+    },
+    {
+      "t": 25.14,
+      "text": "this literally means 18 per hundred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 28.94,
+      "text": "Actually, I said I would do the decimal",
+      "speaker": "S1"
+    },
+    {
+      "t": 30.24,
+      "text": "first, but we can start putting it into",
+      "speaker": "S1"
+    },
+    {
+      "t": 32.46,
+      "text": "a fraction first.",
+      "speaker": "S1"
+    },
+    {
+      "t": 33.7,
+      "text": "18 per hundred as a fraction literally means",
+      "speaker": "S1"
+    },
+    {
+      "t": 36.24,
+      "text": "18 per hundred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 39.7,
+      "text": "We're literally doing, so we're doing the fraction",
+      "speaker": "S1"
+    },
+    {
+      "t": 41.32,
+      "text": "first.",
+      "speaker": "S1"
+    },
+    {
+      "t": 41.84,
+      "text": "This literally means 18 per hundred, or 18",
+      "speaker": "S1"
+    },
+    {
+      "t": 44.78,
+      "text": "hundredths.",
+      "speaker": "S1"
+    },
+    {
+      "t": 46.72,
+      "text": "Now, if we want to do it, from",
+      "speaker": "S1"
+    },
+    {
+      "t": 48.36,
+      "text": "here we could go straight to a decimal,",
+      "speaker": "S1"
+    },
+    {
+      "t": 50.14,
+      "text": "or we could do this fraction in simplest",
+      "speaker": "S1"
+    },
+    {
+      "t": 51.94,
+      "text": "form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 52.64,
+      "text": "Let's do the decimal first, because that's actually",
+      "speaker": "S1"
+    },
+    {
+      "t": 54.38,
+      "text": "where I said I would do first.",
+      "speaker": "S1"
+    },
+    {
+      "t": 55.44,
+      "text": "So let's do that first.",
+      "speaker": "S1"
+    },
+    {
+      "t": 56.46,
+      "text": "So how do we write, so this is",
+      "speaker": "S1"
+    },
+    {
+      "t": 57.74,
+      "text": "the same thing, this is the same thing",
+      "speaker": "S1"
+    },
+    {
+      "t": 59.84,
+      "text": "as 18 hundredths.",
+      "speaker": "S1"
+    },
+    {
+      "t": 66.06,
+      "text": "And we know how to write that in",
+      "speaker": "S1"
+    },
+    {
+      "t": 67.84,
+      "text": "decimal form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 69.22,
+      "text": "It's 0.18.",
+      "speaker": "S1"
+    },
+    {
+      "t": 72.1,
+      "text": "You could view this as one tenth and",
+      "speaker": "S1"
+    },
+    {
+      "t": 74.12,
+      "text": "eight hundredths, which is the same thing, or",
+      "speaker": "S1"
+    },
+    {
+      "t": 76.62,
+      "text": "ten hundredths and eight hundredths, which is eighteen",
+      "speaker": "S1"
+    },
+    {
+      "t": 79.0,
+      "text": "hundredths.",
+      "speaker": "S1"
+    },
+    {
+      "t": 80.02,
+      "text": "So this is written in decimal form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 82.8,
+      "text": "And if we write it as a simplified",
+      "speaker": "S1"
+    },
+    {
+      "t": 83.8,
+      "text": "fraction, we need to see if there is",
+      "speaker": "S1"
+    },
+    {
+      "t": 85.4,
+      "text": "a common factor for eighteen and one hundred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 89.86,
+      "text": "And they're both even numbers, so we know",
+      "speaker": "S1"
+    },
+    {
+      "t": 91.24,
+      "text": "they're both divisible by two, so let's divide",
+      "speaker": "S1"
+    },
+    {
+      "t": 93.16,
+      "text": "both the numerator and the denominator by two.",
+      "speaker": "S1"
+    },
+    {
+      "t": 95.36,
+      "text": "So we have eighteen divided by two over",
+      "speaker": "S1"
+    },
+    {
+      "t": 98.56,
+      "text": "one hundred divided by two, and we're going",
+      "speaker": "S1"
+    },
+    {
+      "t": 101.54,
+      "text": "to get eighteen divided by two is nine.",
+      "speaker": "S1"
+    },
+    {
+      "t": 103.72,
+      "text": "One hundred divided by two is fifty, and",
+      "speaker": "S1"
+    },
+    {
+      "t": 108.0,
+      "text": "I don't think these guys share any common",
+      "speaker": "S1"
+    },
+    {
+      "t": 109.84,
+      "text": "factors.",
+      "speaker": "S1"
+    },
+    {
+      "t": 111.4,
+      "text": "Fifty is not divisible by three, nine is",
+      "speaker": "S1"
+    },
+    {
+      "t": 113.7,
+      "text": "only divisible by three and one and nine,",
+      "speaker": "S1"
+    },
+    {
+      "t": 115.88,
+      "text": "so this is the fraction in simplest form.",
+      "speaker": "S1"
+    },
+    {
+      "t": 119.14,
+      "text": "So we have eighteen percent is the same",
+      "speaker": "S1"
+    },
+    {
+      "t": 121.32,
+      "text": "thing as 0.18, which is the same",
+      "speaker": "S1"
+    },
+    {
+      "t": 125.66,
+      "text": "thing in simplest form as nine fifties.",
+      "speaker": "S1"
+    },
+    {
+      "t": 128.4,
+      "text": "Now, I went through a lot of, I",
+      "speaker": "S1"
+    },
+    {
+      "t": 130.86,
+      "text": "guess, pain here to show you that, look,",
+      "speaker": "S1"
+    },
+    {
+      "t": 132.78,
+      "text": "this really just comes from the word, from",
+      "speaker": "S1"
+    },
+    {
+      "t": 134.4,
+      "text": "percent, from per hundred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 136.5,
+      "text": "But if you ever were to see this",
+      "speaker": "S1"
+    },
+    {
+      "t": 137.52,
+      "text": "in a problem, the fast way to do",
+      "speaker": "S1"
+    },
+    {
+      "t": 139.3,
+      "text": "this is to immediately say, okay, if I",
+      "speaker": "S1"
+    },
+    {
+      "t": 141.02,
+      "text": "have eighteen percent, you should immediately say anything",
+      "speaker": "S1"
+    },
+    {
+      "t": 146.28,
+      "text": "in front of the percent, that's that anything,",
+      "speaker": "S1"
+    },
+    {
+      "t": 148.32,
+      "text": "whatever this anything is, this should be equal",
+      "speaker": "S1"
+    },
+    {
+      "t": 150.82,
+      "text": "to that anything, in this case it's eighteen",
+      "speaker": "S1"
+    },
+    {
+      "t": 153.2,
+      "text": "over one hundred.",
+      "speaker": "S1"
+    },
+    {
+      "t": 155.7,
+      "text": "And another way to think about it, you",
+      "speaker": "S1"
+    },
+    {
+      "t": 157.94,
+      "text": "could view this as eighteen point zero percent,",
+      "speaker": "S1"
+    },
+    {
+      "t": 161.3,
+      "text": "so this is eighteen point zero percent.",
+      "speaker": "S1"
+    },
+    {
+      "t": 164.76,
+      "text": "When you want to convert this, I just",
+      "speaker": "S1"
+    },
+    {
+      "t": 166.14,
+      "text": "added a trailing zero there, just so that",
+      "speaker": "S1"
+    },
+    {
+      "t": 169.22,
+      "text": "you see the decimal really.",
+      "speaker": "S1"
+    },
+    {
+      "t": 170.98,
+      "text": "If you want to express this as a",
+      "speaker": "S1"
+    },
+    {
+      "t": 173.12,
+      "text": "decimal, without the percent, you just move this",
+      "speaker": "S1"
+    },
+    {
+      "t": 177.04,
+      "text": "over to, you move the decimal to the",
+      "speaker": "S1"
+    },
+    {
+      "t": 179.84,
+      "text": "left two spaces.",
+      "speaker": "S1"
+    },
+    {
+      "t": 181.38,
+      "text": "So if we move the decimal to the",
+      "speaker": "S1"
+    },
+    {
+      "t": 183.04,
+      "text": "left two spaces, one two, this becomes point",
+      "speaker": "S1"
+    },
+    {
+      "t": 187.48,
+      "text": "one eight, zero point one eight.",
+      "speaker": "S1"
+    },
+    {
+      "t": 191.38,
+      "text": "Or you could immediately say that, look, eighteen",
+      "speaker": "S1"
+    },
+    {
+      "t": 193.18,
+      "text": "percent as a fraction is eighteen over a",
+      "speaker": "S1"
+    },
+    {
+      "t": 195.06,
+      "text": "hundred, when you put it in simplified form",
+      "speaker": "S1"
+    },
+    {
+      "t": 196.92,
+      "text": "is nine over fifty, but you should also",
+      "speaker": "S1"
+    },
+    {
+      "t": 198.7,
+      "text": "see that eighteen over a hundred, and we",
+      "speaker": "S1"
+    },
+    {
+      "t": 200.38,
+      "text": "have seen this as the exact same thing",
+      "speaker": "S1"
+    },
+    {
+      "t": 202.12,
+      "text": "as eighteen hundredths, or zero point one eight.",
+      "speaker": "S1"
+    },
+    {
+      "t": 206.72,
+      "text": "Hopefully this made some connections for you and",
+      "speaker": "S1"
+    },
+    {
+      "t": 209.44,
+      "text": "didn't confuse you.",
+      "speaker": "S1"
+    }
+  ],
+  "symbols": [
+    {
+      "t": 12.0,
+      "kind": "latex",
+      "data": "18\\% = \\frac{18}{100}",
+      "duration_s": 190.0
+    },
+    {
+      "t": 66.0,
+      "kind": "latex",
+      "data": "\\frac{18}{100} = 0.18",
+      "duration_s": 135.0
+    },
+    {
+      "t": 95.0,
+      "kind": "latex",
+      "data": "\\frac{18}{100} = \\frac{9}{50}",
+      "duration_s": 110.0
+    }
+  ],
+  "scenes": [
+    {
+      "t": 0,
+      "layout": "whiteboard",
+      "background": "white"
+    }
+  ],
+  "emphasis": [
+    {
+      "t": 118.0,
+      "target": 2,
+      "style": "circle",
+      "duration_s": 28.0
+    }
+  ],
+  "accessibility": {
+    "math_speech": [
+      {
+        "t": 12.0,
+        "text": "Eighteen percent equals eighteen over one hundred."
+      },
+      {
+        "t": 66.0,
+        "text": "Eighteen over one hundred equals zero point one eight."
+      },
+      {
+        "t": 95.0,
+        "text": "Eighteen over one hundred equals nine over fifty."
+      }
+    ]
+  }
+}

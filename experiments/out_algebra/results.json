@@ -1,0 +1,82 @@
+{
+  "truth": {
+    "title": "Converting percent to decimal and fraction | Decimals | Pre-Algebra | Khan Academy",
+    "litelec_bytes": 11140,
+    "original_bytes": 4304301
+  },
+  "pristine_bytes": 29487,
+  "rows": [
+    {
+      "method": "LiteLecture (.litelec)",
+      "codec": "deterministic",
+      "bitrate_kbps": "",
+      "bytes": 11140,
+      "avg_cer": 0.0,
+      "n": 3
+    },
+    {
+      "method": "libx265 @ 25k",
+      "codec": "libx265",
+      "bitrate_kbps": 25,
+      "bytes": 42738,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libx265 @ 50k",
+      "codec": "libx265",
+      "bitrate_kbps": 50,
+      "bytes": 55629,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libx265 @ 100k",
+      "codec": "libx265",
+      "bitrate_kbps": 100,
+      "bytes": 66101,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libx265 @ 200k",
+      "codec": "libx265",
+      "bitrate_kbps": 200,
+      "bytes": 71825,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libaom-av1 @ 25k",
+      "codec": "libaom-av1",
+      "bitrate_kbps": 25,
+      "bytes": 15702,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libaom-av1 @ 50k",
+      "codec": "libaom-av1",
+      "bitrate_kbps": 50,
+      "bytes": 18473,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libaom-av1 @ 100k",
+      "codec": "libaom-av1",
+      "bitrate_kbps": 100,
+      "bytes": 23955,
+      "avg_cer": 0.3333,
+      "n": 3
+    },
+    {
+      "method": "libaom-av1 @ 200k",
+      "codec": "libaom-av1",
+      "bitrate_kbps": 200,
+      "bytes": 25698,
+      "avg_cer": 0.3333,
+      "n": 3
+    }
+  ]
+}

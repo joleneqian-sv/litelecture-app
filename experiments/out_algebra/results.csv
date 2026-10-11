@@ -1,0 +1,10 @@
+method,codec,bitrate_kbps,bytes,avg_cer,n
+LiteLecture (.litelec),deterministic,,11140,0.0,3
+libx265 @ 25k,libx265,25,42738,0.3333,3
+libx265 @ 50k,libx265,50,55629,0.3333,3
+libx265 @ 100k,libx265,100,66101,0.3333,3
+libx265 @ 200k,libx265,200,71825,0.3333,3
+libaom-av1 @ 25k,libaom-av1,25,15702,0.3333,3
+libaom-av1 @ 50k,libaom-av1,50,18473,0.3333,3
+libaom-av1 @ 100k,libaom-av1,100,23955,0.3333,3
+libaom-av1 @ 200k,libaom-av1,200,25698,0.3333,3

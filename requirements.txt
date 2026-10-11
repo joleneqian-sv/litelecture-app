@@ -1,0 +1,14 @@
+# LiteLecture encoder dependencies
+# Install with: pip install -r requirements.txt
+# Python 3.9+ required.
+
+pix2text>=1.1          # Open-source math OCR (formulas + layout)
+faster-whisper>=1.0    # Speech-to-text (4x faster than whisper.cpp, pure pip)
+yt-dlp>=2024.0         # Video download (Khan Academy, YouTube, OCW)
+
+# ffmpeg is a system dependency; install via Chocolatey / Homebrew / apt
+
+# Phase B additions (uncomment as you get to them):
+# numpy>=1.24
+# opencv-python>=4.8    # For frame sampling and scene change detection
+# pillow>=10.0          # Image I/O
